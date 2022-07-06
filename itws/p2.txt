@@ -1,0 +1,66 @@
+//Name: Ranapratapsingh Pravin Patil
+//Batch: B3
+//Roll No: 81
+//Practical no - 2
+Startup execution: loading 
+initial environment 
+ 
+-->//Create a 2D array 
+ 
+-->a=[1 2 3;4 5 6;7 8 9] 
+a = 
+ 
+ 1. 2. 3. 
+ 4. 5. 6. 
+ 7. 8. 9. 
+ 
+-->//If we want to insert value 12 at position 2 in row 1 then we have to use these parameter shown 
+below in example 
+ 
+-->a(1,[2])=[12] 
+a = 
+ 
+ 1. 12. 3. 
+ 4. 5. 6. 
+ 7. 8. 9. 
+ 
+-->//Insert two different values for that we have to use these parameters shown below in example 
+ 
+ 
+-->a([1,3],3)=[22;33] 
+a = 
+ 
+ 1. 12. 22. 
+ 4. 5. 6. 
+ 7. 8. 33. 
+ 
+-->//Insert same values at random position than we have to use these parameters shown below in 
+example 
+ 
+-->a([1,2],2)=[77] 
+a = 
+ 
+ 1. 77. 22. 
+ 4. 77. 6. 
+ 7. 8. 33. 
+ 
+-->//Delete 
+ 
+-->//a.) First create 2d matrix 
+ 
+-->c=[1 2 3; 4 5 6;7 8 9] 
+c = 
+ 
+ 1. 2. 3. 
+ 4. 5. 6. 
+ 7. 8. 9. 
+ 
+-->//b.) To delete single column then we have to use these parameters shown below in example 
+ 
+-->c(:,3)=[] 
+c = 
+ 
+ 1. 2. 
+ 4. 5. 
+ 7. 8. 
+ 

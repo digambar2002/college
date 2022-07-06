@@ -1,0 +1,125 @@
+//Name: Ranapratapsingh 
+Pravin Patil
+//Batch: B3
+//Roll No: 81
+//Practical no : 4
+ 
+-->//a. Relational 
+operations 
+-->c=[1 0;0 1] 
+c = 
+ 
+ 1. 0. 
+ 0. 1. 
+ 
+-->d=[0 1;1 0] 
+d = 
+ 
+0. 1. 
+1. 0. 
+ 
+-->c>d 
+ans = 
+ 
+ T F 
+ F T 
+ 
+-->c<d 
+ans = 
+ 
+ F T 
+ T F 
+ 
+-->c==d 
+ans = 
+ 
+ F F 
+ F F 
+ 
+-->c<=d 
+ans = 
+ 
+ F T 
+ T F 
+ 
+-->c>=d 
+ans = 
+ 
+ T F 
+ F T 
+ 
+-->c~=d 
+ans = 
+ 
+ T T 
+ T T 
+ 
+-->//B. Logical operations 
+ 
+-->a=[1 0 0;0 1 0;0 0 1] 
+a = 
+ 
+ 1. 0. 0. 
+ 0. 1. 0. 
+ 0. 0. 1. 
+ 
+-->~a 
+ans = 
+ 
+ F T T 
+ T F T 
+ T T F 
+ 
+-->~(~a) 
+ans = 
+ 
+ T F F 
+ F T F 
+ F F T 
+ 
+-->//Examples of & operator 
+ 
+-->c=[1 0;0 1] 
+c = 
+ 
+ 1. 0. 
+ 0. 1. 
+ 
+-->d=[0 1;1 0] 
+d = 
+ 
+0. 1. 
+1. 0. 
+ 
+-->c&d 
+ans = 
+ 
+ F F 
+ F F 
+ 
+//Example of | operator 
+-->c|d 
+ans = 
+ 
+ T T 
+ T T 
+ 
+//Example of XOR operator 
+-->c=[1 0;0 1] 
+c = 
+ 
+ 1. 0. 
+ 0. 1. 
+ 
+-->d=[0 1;1 0] 
+d = 
+ 
+0. 1. 
+1. 0. 
+ 
+-->x=bitxor(c,d) 
+x = 
+ 
+ 1. 1. 
+ 1. 1. 
+ 

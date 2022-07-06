@@ -1,0 +1,26 @@
+Name:-Ganesh Narendra Pawar
+Class:-SE (B)
+Roll No:-40
+Batch:-B2
+Experiment No:-06
+a =
+2. 4. 6.3 . 
+8. 5.
+-1. 1. 2.
+--> b=[-22;-27;-2]
+b =
+-22.
+-27.
+-2.
+--> c=linsolve(a,b)
+c =
+3.0000000
+1.0000000
+2.0000000
+--> d=sin(c)
+d =
+0.1411200
+0.8414710
+0.9092974
+--> xtitle("sin graph","x-axis","y-axis")
+--> plot(d)

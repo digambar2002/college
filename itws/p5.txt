@@ -1,0 +1,38 @@
+Name:-Ganesh Narendra Pawar
+Class:-SE (B)
+Roll No:-40
+Batch:-B2
+Experiment No:-05
+--> k=[2 3 -5;1 -3 8;2 -2 4]
+k =
+2. 3. -5.1 . 
+-3. 8.2.
+-2. 4.
+--> l=[13;-13;6]
+l =
+13.-13.6.
+--> j=linsolve(k,l)
+j =
+-5.5
+8.5
+5.5
+--> fix(j)
+ans =
+-5.
+8.
+5.
+--> round(j
+)ans =
+-5.
+9.
+6.
+--> floor(j)
+ans =
+-6.
+8.
+5.
+--> ceil(j)
+ans =
+-5.
+9.
+6.

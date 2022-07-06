@@ -1,0 +1,73 @@
+//Name: 
+Ranapratapsing
+h Pravin Patil
+//Batch: B3
+//Roll No: 81
+Start-up execution: 
+loading initial environment 
+Practical no - 1
+ 
+-->//Creating 1D matrix 
+ 
+-->a=[1 2 3] 
+a = 
+ 1. 2. 
+3. 
+ 
+-->//Creating 2D matrix 
+ 
+-->b=[1 2;3 4;5 6] 
+b = 
+ 
+ 1. 2. 
+ 3. 4. 
+ 5. 6. 
+ 
+-->//Creating empty matrix 
+ 
+-->a=[] 
+a = 
+ 
+ [] 
+ 
+-->//Creating identity matrix 
+ 
+-->f=eye(3,3) 
+f = 
+ 
+ 1. 0. 0. 
+ 0. 1. 0. 
+0. 0. 1. 
+ 
+-->//Creating diagonal matrix 
+ 
+-->m=diag([1,2,3]) 
+m = 
+ 
+1. 0. 0. 
+ 0. 2. 0. 
+ 0. 0. 3. 
+ 
+-->//String as elements of array 
+ 
+-->x=['hello';'test'] 
+x = 
+ 
+!hello ! 
+! ! 
+!test ! 
+ 
+-->//Creating matrix having all elements as 0 and 1 
+ 
+-->w=zeros(3,3) 
+w = 
+ 
+ 0. 0. 0. 
+ 0. 0. 0. 
+0. 0. 0. 
+-->k=ones(2,3) 
+k = 
+ 
+1. 1. 1. 
+ 1. 1. 1. 
+ 
